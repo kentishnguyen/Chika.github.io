@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="contact.js" defer></script>
+    <title>ChiKa</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="navTop">
+                <div class="navItem">
+                    <img src="img/logo-remove.png" alt="" height="50" width="200">
+                </div>
+                <div id="navBottom">
+                    <h3 class="pages"><a href="index.html">Home</a></h3>
+                    <h3 class="pages"><a href="goods.html">Essentials</a></h3>
+                    <h3 class="pages"><a href="blog.html">Blog</a></h3>
+                </div>
+                <div class="navItem" id="SearchandAccount">
+                    <div id="search">
+                        <input type="text" placeholder="Want anything?... " id="searchBox"><span
+                            style='font-size:20px;'>&#8594;</span>
+                    </div>
+                    <a href="contact.html" id="account"><img src="img/account.png" alt="" height="20"
+                            width="20"></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="contactWrapper">
+            <div id="contactParagraph">
+                <h2 id="contactTitle">Contact us</h2><br><br>
+                <p>Need to get in touch with us? Either fill out the form with your inquiry or find the <a
+                        href="mailto:nhongkhang1119@gmail.com" id="thelink">department email</a> you'd like to contact
+                    below.</p>
+            </div>
+            <div id="theForm">
+                <form method="get" id="customerQuestions">
+                    <fieldset id="contactBg">
+                        <div id="fnameAndlname">
+                            <div class="surename">
+                                <label for="firstName">First Name*</label><br>
+                                <input type="text" id="firstName" name="firstName" placeholder="First name"
+                                    required><br><br>
+                            </div>
+                            <div class="surename">
+                                <label for="lastName">Last Name</label><br>
+                                <input type="text" id="lastName" name="lastName" placeholder="Last name"><br><br>
+                            </div>
+                        </div>
+                        <label for="emaill">E-mail*</label><br>
+                        <input type="email" id="emaill" name="emaill" required><br><br>
+                        <label for="questions">What can we help you with?</label><br>
+                        <textarea name="questions" id="questions" cols="60" rows="10"></textarea><br><br>
+
+                        <input type="button" id="contactSubmit" value="Submit">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div id="showCustomer">
+            <h4 id="customerInfo1"></h4>
+            <h4 id="customerInfo2"></h4>
+        </div>
+    </main>
+    <footer>
+        &copy; 2024 Chika. All rights reserved.
+    </footer>

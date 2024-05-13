@@ -1,0 +1,372 @@
+body{
+    font-family: "Libre Franklin", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: rgba(177, 160, 119, 0.397);
+    color: white;
+    padding: 20px 50px;
+}
+
+#navTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#search{
+    display: flex;
+    align-items: center;
+    background-color: rgba(240, 239, 233, 0.493);
+    padding: 10px 20px;
+    color: black;
+    border-radius: 10px;
+}
+
+#searchBox{
+    border: none;
+    background-color: transparent;
+}
+
+#searchBox::placeholder{
+    color: lightgray;
+    cursor: pointer;
+}
+
+#navBottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pages{
+    margin-right: 20px;
+    margin-left: 20px;    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+#SearchandAccount{
+    display: flex;
+}
+
+#account{
+    padding-top: 11px;
+
+    margin-left: 15px;
+}
+#theSlider
+{
+    background: url("img/Frida-Website.png");
+    background-size: 100% 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+
+#theWrapper{
+    display: flex;
+    width: 500vw;
+}
+
+.sliderObjects{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, h2{
+    color: rgb(250, 239, 218);
+    font-weight: 900;
+    z-index: 1 ;
+}
+
+.theBackground{
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+}
+
+.sliderImg{
+    z-index: 1;
+}
+
+.shopNow{
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    font-size: 60px;
+    font-weight: 300;
+    text-align: center;
+    color: rgb(124, 91, 41);
+    border: 1px solid gray;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.shopNow:hover{
+    background-color: white;
+    color: black;
+}
+
+.sliderObjects:nth-child(1) .theBackground{
+    background-color: rgb(19, 38, 58); 
+}
+
+#services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+}
+
+#paragraphs > h3{
+    text-align: center;
+    font-weight: 700;
+    color: rgb(19, 38, 58);
+    font-size: 40px;
+    text-shadow: 5px 5px 5px;
+}
+
+#introduction{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgba(177, 160, 119, 0.397);
+}
+
+#audio > p{
+    font-weight: 700;
+    color: rgb(18, 91, 170);
+}
+
+#audio{
+    padding-left: 60px;
+}
+
+/* -------------------------------------------------------------- */
+/* The blog page */
+#history{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#history > p
+{
+    text-align: justify;
+}
+
+#history > h3{
+    font-size: 30px;
+    color: rgb(19, 38, 58);
+    text-shadow: 5px 5px 7px;
+}
+
+iframe{
+    float: left;
+    padding-right: 30px;
+}
+/* ---------------------------------------------------------------- */
+/* The essentials */
+legend{
+    font-weight: bold;
+    background-color: rgb(155, 197, 231);
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    padding: 5px;
+    font-size: small;
+ 
+ }
+ #feedback{
+    border: 3px solid rgb(42, 54, 97);
+    width: 90%;
+    height: min-content;
+    margin: auto;
+    margin-top: 10px;
+ }
+ label{
+    font-weight: bold;
+ }
+ #subandset{
+    text-align: center;
+ }
+ #subandset > input{
+    margin: 10px;
+ }
+
+main{
+    background-image: linear-gradient(to bottom right, rgba(209, 186, 127, 0.596), rgba(255, 255, 255, 0.397), rgba(224, 203, 153, 0.664), rgba(255, 255, 255, 0.514));
+}
+
+#wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    width: 20%;
+    margin-left: 140px;
+    table-layout: fixed;
+    border: 2px double rgb(243, 207, 187);
+    border-collapse: collapse;
+    border-spacing: 2px;
+}
+
+aside{
+    width: 40%;
+}
+
+#yourfavorite{
+    width: 40%;
+}
+
+tbody tr:first-child td:nth-child(1),
+tbody tr:last-child td:nth-last-child(-n+4) {
+    background-color: rgba(171, 171, 171, 0.6);
+}
+td,
+th {
+    width: 11.42%;
+    border: 1px solid gray;
+    padding: 1em 0.5em;
+}
+
+td {
+    background-color: rgba(232, 214, 148, 0.6);
+    box-shadow: inset 0 0 20px gray;
+}
+
+thead>tr {
+    
+    background-color: rgba(255, 230, 214, 0.74);
+    color: rgb(87, 52, 52)
+}
+
+caption{
+    font-weight: 800;
+    color: rgb(40, 71, 104);
+}
+
+#favouriteTitle, #addItemTitle{
+    color: rgb(18, 91, 170);
+}
+
+/* --------------------------------------------------------------------- */
+/* contact page */
+
+#fnameAndlname{
+    display: flex;
+    justify-content: space-between;
+}
+
+.surename{
+    display: flex;
+    flex-direction: column;
+}
+
+#contactWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 200px;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+#contactTitle, #thelink{
+    color:rgb(18, 91, 170);
+}
+
+#thelink{
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+#contactBg{
+    background-color: whitesmoke;
+    border: none;
+    box-shadow: 2px 5px 15px;
+}
+
+label{
+    color: rgb(18, 91, 170);
+}
+
+@media screen and (max-width: 1024px) {
+    .theBackground{
+        display: none;
+    }
+    #search{
+        display: none;
+    }
+    #theSlider {
+        clip-path: none;
+    }
+    .services{
+        width: 100%;
+    }
+    .shopNow{
+        font-size: 20px;
+    }
+    table{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    #navBottom {
+        display: block;
+    }
+    .sliderImg{
+        display: none;
+    }
+    #thefieldset {
+        display: block;
+        width: max-content;
+    }
+    .shopNow{
+        display: none;
+    }
+    #services{
+        flex-wrap: wrap;
+    }
+    .services
+    {
+        width: 100%;
+    }
+    table {
+        display: none;
+    }
+    #wrapper
+    {
+        flex-wrap: wrap;
+    }
+    aside{
+        width: 100%;
+    }
+    #contactWrapper{
+        flex-wrap: wrap;
+    }
+    #contactParagraph{
+        width: 100%;
+    }
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="essential.js" defer></script>
+    <title>ChiKa</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="navTop">
+                <div class="navItem">
+                    <img src="img/logo-remove.png" alt="" height="50" width="200">
+                </div>
+                <div id="navBottom">
+                    <h3 class="pages"><a href="index.html">Home</a></h3>
+                    <h3 class="pages"><a href="blog.html">Blog</a></h3>
+                    <h3 class="pages"><a href="contact.html">Contact Us</a></h3>
+                </div>
+                <div class="navItem" id="SearchandAccount">
+                    <div id="search">
+                        <input type="text" placeholder="Want anything?... " id="searchBox"><span
+                            style='font-size:20px;'>&#8594;</span>
+                    </div>
+                    <a href="contact.html" id="account"><img src="img/account.png" alt="" height="20"
+                            width="20"></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+    <div id="wrapper">
+        <table>
+            <caption>Grand Opening In April</caption>
+
+            <thead>
+                <tr>
+                    <th scope="col">Sun</th>
+                    <th scope="col">Mon</th>
+                    <th scope="col">Tue</th>
+                    <th scope="col">Wed</th>
+                    <th scope="col">Thu</th>
+                    <th scope="col">Fri</th>
+                    <th scope="col">Sat</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>31</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+            </tbody>
+        </table>
+        <aside>
+            <form method="get" id="feedback">
+                <fieldset>
+                    <legend>Give your feedback</legend>
+                    <label for="fname">First Name</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="First name"><br><br>
+                    <label for="lname">Last Name</label><br>
+                    <input type="text" id="lname" name="lname" placeholder="Last name"><br><br>
+
+                    <label for="E-mail">E-mail*</label><br>
+                    <input type="email" id="E-mail" name="E-mail" required><br><br>
+                    <label for="itemBought">Item Bought</label>
+                    <select name="itemBought" id="itemBought">
+                        <option value="Chippy">Chippy</option>
+                        <option value="Sali">Sali</option>
+                        <option value="Yang">Yang</option>
+                        <option value="Frida">Frida</option>
+
+                    </select>
+                    <br><br>
+                    <label for="rating">Rating (1-10)</label><br>
+                    <input type="range" id="rating" name="rating" step="2"><br><br>
+                    <label for="complain">Comments:</label><br>
+                    <textarea name="complain" id="complain" cols="20" rows="10"></textarea><br><br>
+
+                    <div id="subandset">
+                        <input type="submit" value="Submit" id="submitButton">
+                        <input type="reset" value="Cancel">
+                    </div>
+                </fieldset>
+            </form>
+        </aside>
+        <div id="yourfavorite">
+            <h1 id="favouriteTitle">Adding favorite items</h1>
+
+            <form>
+                Add a new item: <input type="text" name="itemm" id="itemm">
+                <input id="addItem" type="button" value="Add Item">
+            </form><br><br>
+        
+            <h2 id="addItemTitle">Add Item</h2>
+            <select name="itemss" id="itemss" size="6">
+                <option value="Chippy">Chippy</option>
+                <option value="Sali">Sali</option>
+                <option value="Yang">Yang</option>
+                <option value="Frida">Frida</option>
+            </select>
+        </div>
+    </div>
+    </main>
+    <footer>
+        &copy; 2024 Chika. All rights reserved.
+    </footer>
